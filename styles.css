@@ -1,7 +1,16 @@
 .jumbotron{
-    background-image: url(./images/f8tRhe2XSlutilxCgkeM_easy\ peezy\ pizza\ dough\ SITE-3.jpg);
+    background-image: url("./images/beibehang-Custom-wallpaper-3D-mural-personality-pizza-cake-shop-blackboard-newspaper-background-wall-decoration-Papel-de.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 700px;
 }
 h2{
     font-style: bold;
+}
+#navbarSupportedContent{
+    justify-content: left;
+}
+.about{
+    display: flex;
+    text-align: center;
 }
