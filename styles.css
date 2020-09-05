@@ -4,13 +4,36 @@
     background-size: cover;
     height: 700px;
 }
-h2{
+/* #welcome{
+    text-align: center;
+    margin-top: 15rem;
+    margin-left: 35rem;
+    text-decoration-line: underline;
+    color: blanchedalmond;
+    font-size:xx-large ;
+    width: 500px;
+
+} */
+h1{
+    margin-left: 5rem;
     font-style: bold;
+    text-align: center;
+    font-size:xx-large ;
+    color: blanchedalmond;
+    margin-top: 15rem;
+}
+h2{
+    margin-left: 5rem;
+    font-style: bold;
+    text-align: center;
+    color: blanchedalmond;
 }
 #navbarSupportedContent{
     justify-content: left;
 }
 .about{
     display: flex;
+    margin-top: 5rem;
     text-align: center;
+    background-color: black;
 }
