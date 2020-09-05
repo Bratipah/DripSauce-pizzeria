@@ -33,7 +33,18 @@ h2{
 }
 .about{
     display: flex;
-    margin-top: 5rem;
+    margin-top: none;
     text-align: center;
     background-color: black;
+}
+.aboutcontent{
+    margin-top: 5rem;
+    width: 300px;
+    float: left;
+    
+}
+.imgbt{
+    margin-top: 5rem;
+    margin-left: 10rem;
+
 }
