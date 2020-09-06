@@ -51,3 +51,9 @@ h2{
 .carouselslide{
     margin-top: 60rem;
 }
+.order{
+    display: flex;
+}
+.formchoice{
+    margin-top: 30rem;
+}
