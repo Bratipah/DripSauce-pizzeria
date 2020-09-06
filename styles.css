@@ -42,7 +42,7 @@ h2{
     background-color: black;
     width: 100%;
     font-style: bold;
-    position: scroll;
+    position: relative;
 }
 #text1{
     text-decoration-line: underline;
@@ -63,7 +63,11 @@ h2{
     width: 100%;
     height: 100%;
 }
+.formchoice{
 
+    border-radius: 3px;
+    color: turquoise;
+}
 .orderimg{
     /* margin-top: 5rem; */
     margin-left: 5rem;
