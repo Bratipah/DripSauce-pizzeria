@@ -42,9 +42,11 @@ h2{
     text-align: center;
     background-color: black;
     width: 100%;
+    font-style: bold;
+}
+#text1{
     text-decoration-line: underline;
     text-decoration-color: turquoise;
-    font-style: bold;
 }
 .aboutcontent{
     margin-top: 5rem;
@@ -57,20 +59,19 @@ h2{
 .order{
     display: flex;
     text-align: center;
-    position: scroll;
+    position: fixed;
     background-color: black;
     width: 100%;
 }
 .formchoice{
-    margin-top: 8rem;
     margin-left: 5rem;
     margin-right: 3rem;
     border-radius: 5px;
     background-color: turquoise;
-    height: 600px;
+    height: 500px;
 }
 .orderimg{
     margin-top: 5rem;
     margin-left: 5rem;
-    border-radius: 5px;
+    border-radius: 10px;
 }
