@@ -54,5 +54,5 @@ Bratipah Kioko
 
 ## License
 
-[LICENSE](https://github.com/Bratipah/Delani-studio/blob/master/LICENSE.md) © [Bratipah Kioko ](https://github.com/bratipah)
+[LICENSE](https://github.com/Bratipah/DripSauce-pizzeria/blob/master/LICENSE.md) © [Bratipah Kioko ](https://github.com/bratipah)
 
