@@ -53,7 +53,13 @@ h2{
 }
 .order{
     display: flex;
+    text-align: center;
+    position: fixed;
 }
 .formchoice{
-    margin-top: 30rem;
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+.orderimg{
+    margin-top: 5rem;
 }
