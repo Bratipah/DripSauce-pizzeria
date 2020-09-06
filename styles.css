@@ -3,6 +3,7 @@
     height: 750px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     
 }
 .navbar{
@@ -39,14 +40,16 @@ h2{
 .about{
     margin-top: none;
     text-align: center;
-    background-color: black; 
+    background-color: black;
     width: 100%;
+    text-decoration-line: underline;
+    text-decoration-color: turquoise;
+    font-style: bold;
 }
 .aboutcontent{
     margin-top: 5rem;
     width: 300px;
-    float: left;
-    
+    text-align: center;
 }
 .carouselslide{
     margin-top: 60rem;
@@ -54,12 +57,20 @@ h2{
 .order{
     display: flex;
     text-align: center;
-    position: fixed;
+    position: scroll;
+    background-color: black;
+    width: 100%;
 }
 .formchoice{
-    margin-top: 5rem;
+    margin-top: 8rem;
     margin-left: 5rem;
+    margin-right: 3rem;
+    border-radius: 5px;
+    background-color: turquoise;
+    height: 600px;
 }
 .orderimg{
     margin-top: 5rem;
+    margin-left: 5rem;
+    border-radius: 5px;
 }
