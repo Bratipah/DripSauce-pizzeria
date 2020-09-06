@@ -7,7 +7,7 @@
     
 }
 .navbar{
-    position: fixed;
+    position: fixed top;
     width: 100%;
 }
 /* #welcome{
@@ -38,7 +38,7 @@ h2{
     justify-content: left;
 }
 .about{
-    margin-top: none;
+    
     text-align: center;
     background-color: black;
     width: 100%;
@@ -62,16 +62,20 @@ h2{
     position: fixed;
     background-color: black;
     width: 100%;
+    height: 100%;
 }
 .formchoice{
     margin-left: 5rem;
     margin-right: 3rem;
-    border-radius: 5px;
+    border-radius: 3px;
     background-color: turquoise;
     height: 500px;
 }
 .orderimg{
-    margin-top: 5rem;
+    /* margin-top: 5rem; */
     margin-left: 5rem;
     border-radius: 10px;
 }
+/* .contact{
+    
+} */

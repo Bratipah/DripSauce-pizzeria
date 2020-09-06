@@ -56,8 +56,8 @@
                 <form class="formchoice ">
                     <div class="form-group">
                         <h1>ORDER HERE</h1>
-                        <label for="pizzasize mt-5">Choose your Pizza Size</label>
-                        <select class="form-control" id="pizzasize" aria-placeholder="Size">
+                        <label for="pizzasize">Choose your Pizza Size</label>
+                        <select class="form-control" id="pizzasize" aria-placeholder="Size" required>
                             <option> </option>
                             <option>Small</option>
                             <option>Medium</option>
@@ -66,7 +66,7 @@
                     </div>
                     <div class="form-group">
                         <label for="pizzatopping">Choose your Pizza Topping</label>
-                        <select class="form-control" id="pizzatopping" aria-placeholder="Toppings">
+                        <select class="form-control" id="pizzatopping" aria-placeholder="Toppings" required>
                             <option> </option>
                             <option>Mushrooms</option>
                             <option>Sausage</option>
@@ -79,7 +79,7 @@
                     </div>
                     <div class="form-group">
                         <label for="pizzacrust">Choose your Pizza Crust</label>
-                        <select class="form-control" id="pizzacrust" aria-placeholder="Crust">
+                        <select class="form-control" id="pizzacrust" aria-placeholder="Crust" required>
                             <option> </option>
                             <option>Gluten Free</option>
                             <option>Stuffed Crust</option>
@@ -88,8 +88,8 @@
                         </select>
                     </div>
                     <div class="form-group">
-                        <label for="pizzanumber">Choose number of pizzas</label>
-                        <input type="number" class="form-control" id="pizzanumber" placeholder="Number of pizza">
+                        <label for="pizzanumber">Enter number of pizzas</label>
+                        <input type="number" class="form-control" id="pizzanumber" required>
                     </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
