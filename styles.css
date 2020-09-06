@@ -1,9 +1,8 @@
-.jumbotron{
+.jumbotron1{
     background-image: url("./images/beibehang-Custom-wallpaper-3D-mural-personality-pizza-cake-shop-blackboard-newspaper-background-wall-decoration-Papel-de.webp");
     height: 750px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: scroll;
     
 }
 .navbar{
@@ -38,10 +37,9 @@ h2{
     justify-content: left;
 }
 .about{
-    display: flex;
     margin-top: none;
     text-align: center;
-    background-color: black;
+    background-color: black; 
     width: 100%;
 }
 .aboutcontent{
@@ -50,13 +48,6 @@ h2{
     float: left;
     
 }
-.imgbt{
-    margin-top: 5rem;
-    margin-left: 10rem;
-
-}
-.carousel-inner{
-    height: 500px;
-    width: 100%;
-    margin-top: 20rem;
+.carouselslide{
+    margin-top: 60rem;
 }
