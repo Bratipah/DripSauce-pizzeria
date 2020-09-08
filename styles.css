@@ -1,6 +1,6 @@
 .jumbotron{
-    background-image: url("./images/beibehang-Custom-wallpaper-3D-mural-personality-pizza-cake-shop-blackboard-newspaper-background-wall-decoration-Papel-de.webp");
-    height: 700px;
+   background-image: url("./images/beibehang-Custom-wallpaper-3D-mural-personality-pizza-cake-shop-blackboard-newspaper-background-wall-decoration-Papel-de.webp");
+   height: 700px;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -247,7 +247,7 @@ footer{
     letter-spacing: 2px;
     margin-left: 3%;
     border: 2px solid rgb(190, 190, 190) ;
-    color: turquoise;
+    color:rgb(190, 190, 190) ;
     font-size: 1.2em;
   }
   .submit:hover {
@@ -255,4 +255,15 @@ footer{
     color: turquoise;
     cursor: pointer;
   }
+  .btn {
+    color: red;
+    font-weight: bold;
+    border: 2px solid #634832;
+    font-size: 25px;
+  }
+  .hvr-right:hover,
+.hvr-right:focus,
+.hvr-right:active {
+  color: #000;
+}
   
