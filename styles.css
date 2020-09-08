@@ -1,10 +1,21 @@
 .jumbotron{
     background-image: url("./images/beibehang-Custom-wallpaper-3D-mural-personality-pizza-cake-shop-blackboard-newspaper-background-wall-decoration-Papel-de.webp");
-    height: 750px;
+    height: 700px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: scroll;
+    background-attachment: fixed;
     
+}
+.jumbobtn{
+  text-align: center;
+  margin-top: 15rem;
+  border: indianred,5px;
+  margin-left: 35rem;
+  width: 15rem;
+  height: 5rem;
+  font-style: bold;
+  font-size: large;
+  background-color: transparent;
 }
 h1{
     margin-left: 5rem;
@@ -27,8 +38,11 @@ h3{
   color: black;
   font-style: bold;
 }
+li{
+  text-align: left;
+}
 #navbarSupportedContent{
-    justify-content: left;
+    float: right;
 }
 .about{
     background-image: url("./images/45364856-tasty-pizza-on-a-black-background-with-spices-and-herbs.jpg");
@@ -84,7 +98,7 @@ h3{
     background-repeat: no-repeat;
     display: flex;
     width: 100%;
-    height: 800px;
+    height: 500px;
 
 }
  #formcontact{
@@ -94,7 +108,15 @@ h3{
   margin-top: 8rem;
   margin-left: 10rem;
 }
-/* /////////////////////////////////////////////////// */
+#message{
+  text-align: center;
+}
+footer{
+  background-color: rgb(36, 34, 34);
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+}
 .order h2 {
     text-align: center;
     font-size: 2em;
@@ -181,53 +203,6 @@ h3{
     margin: auto;
     overflow: hidden;
   }
-  /* #contact-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)),
-      url(../images/contact.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100%;
-    width: 100%;
-    padding-bottom: 2%;
-  }
-  #contact-section .container h2 {
-    text-align: center;
-    text-decoration: underline;
-    text-underline-position: under;
-    color: #cf1818;
-    letter-spacing: 2px;
-    font-weight: bolder;
-    padding-top: 4%;
-    padding-bottom: 4%;
-  }
-  #contact-section .container p {
-    text-align: center;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 3%;
-    color: #fff;
-    letter-spacing: 3px;
-  }
-  .contact-form i.fa {
-    font-size: 22px;
-    padding: 3%;
-    background-color: none;
-    border-radius: 80%;
-    margin: 2%;
-    cursor: pointer;
-    border: 2px solid rgb(190, 190, 190);
-    color: rgb(190, 190, 190);
-  }
-  .contact-form i.fa:hover {
-    cursor: pointer;
-    border: 2px solid white;
-    color: white;
-  }
-  .contact-form {
-    display: grid;
-    grid-template-columns: auto auto; */
-  
   .form-info {
     font-size: 16px;
     font-style: italic;
@@ -280,13 +255,4 @@ h3{
     color: turquoise;
     cursor: pointer;
   }
-  /* @media (max-width: 768px) {
-    #contact-section .contact-form {
-      display: block;
-      width: 100%;
-      text-align: center;
-    }
-    #contact-section .submit {
-      width: 60%;
-    }
-  } */
+  
