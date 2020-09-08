@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1f5f5626b5.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles.css">
@@ -43,14 +45,14 @@
             </form>
         </div>
     </nav>
-    <!-- <div class="container"> -->
-    <div class="contact">
-        <h3>CONTACT US</h3>
+    <div class="container-fluid contact">
         <div class="col-md-6">
             <form action="http://eepurl.com/hckj-j" method="POST" id="formcontact">
+                <h3>CONTACT US</h3>
+                <h3>We'd love to help you!</h3>
                 <div class="row">
                     <div class="col">
-                        <input type="text" class="form-control" placeholder="name" name="name" id="name">
+                        <input type="text" class="form-control" placeholder="Name" name="name" id="name">
                     </div>
                     <div class="col">
                         <input type="email" class="form-control" placeholder="Email" name="name" id="email">
@@ -64,8 +66,26 @@
                 <button type="submit" class="btn btn-primary" onclick="subscribe()">Subscribe</button>
             </form>
         </div>
+        <div class="col-md-6">
+            <div class="callno">
+                <p>
+                    <i class="fas fa-home mr-3"></i> <strong>Nairobi.</strong>
+                </p>
+                <p>
+                    <i class="fas fa-map mr-3"></i><strong>Waiyaki way</strong>
+                </p>
+                <p>
+                    <i class="fas fa-envelope mr-3"></i> <strong>dripSaucepizzeria@gmail.com</strong>
+                </p>
+                <p>
+                    <i class="fas fa-phone mr-3"></i> <strong>+ 254 719 227 765.</strong>
+                </p>
+                <p>
+                    <i class="fas fa-print mr-3"></i><strong>+ 254 792 449 686.</strong>
+                </p>
+            </div>
+        </div>
     </div>
-    <!-- </div> -->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"
         integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="./script.js"></script>
