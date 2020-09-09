@@ -3,19 +3,34 @@
    height: 700px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: scroll;
     
 }
-.jumbobtn{
-  text-align: center;
-  margin-top: 15rem;
-  border: indianred,5px;
-  margin-left: 35rem;
-  width: 15rem;
-  height: 5rem;
+.menu1{
+  display: flex;
+  background-color: black;
+}
+.menu2{
+  display: flex;
+  background-color: black;
+}
+.card{
+  margin-left: 8rem;
+  margin-top: 3rem;
+  
+  
+}
+.card-img{
+  height: 10rem;
+}
+#food{
   font-style: bold;
-  font-size: large;
-  background-color: transparent;
+  text-align: center;
+  padding-top: 2rem;
+  color: white;
+  width: 100%;
+  font-size: 5rem;
+  background-color: black;
 }
 h1{
     margin-left: 5rem;
@@ -111,11 +126,12 @@ li{
 #message{
   text-align: center;
 }
-footer{
-  background-color: rgb(36, 34, 34);
+.footer{
   color: white;
   text-align: center;
-  padding-top: 15px;
+  padding-top: 2rem;
+  margin-top: 3rem;
+  height: 10rem;
 }
 .order h2 {
     text-align: center;
@@ -173,9 +189,6 @@ footer{
   }
   #contactdetails h2 {
     text-align: left;
-  }
-  .footer {
-    padding-top: 5%;
   }
   #addedprice {
     display: none;
